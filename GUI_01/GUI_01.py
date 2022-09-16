@@ -73,9 +73,9 @@ subtitulo2.config(bg='black',fg='white', font=('Arial', 21) )
 subtitulo2.place(x=390, y=70)
 
 #Imagen_logo de la app
-logo=PhotoImage(file="Img/btn-suma.png")
-etiq_logo=Label(Frame_entrada, image=logo)
-etiq_logo.place(x=10, y=10)
+logo=PhotoImage(file = "GUI_01/Img/btn-suma.png")
+tiq_logo=Label(Frame_entrada, image=logo)
+tiq_logo.place(x=10, y=10)
 
 #etiqueta para valor A
 etiq_a=Label(Frame_entrada,text="a=")
@@ -109,12 +109,12 @@ Frame_operaciones.place(x=10,y=260)
 #boton de sumar
 #button_sumar=Button(Frame_operaciones, text="SUMAR",width=9)
 #button_sumar.config(font=("Arial",18),justify=CENTER)
-button_sumar1=PhotoImage(file="Img/boton_sumar.png")
+button_sumar1=PhotoImage(file = "GUI_01/Img/boton_sumar.png")
 button_sumar=Button(Frame_operaciones, image=button_sumar1, width=105, height=105 ,command=sumar)
 button_sumar.place(x=116, y=7)
 
 #boton de borrar entradas y resultados
-button_borrar1=PhotoImage(file="Img/boton_borrar.png")
+button_borrar1=PhotoImage(file = "GUI_01/Img/boton_borrar.png")
 button_borrar=Button(Frame_operaciones, image=button_borrar1, width=105, height=105 ,command=borrar)
 #button_borrar=Button(Frame_operaciones, text="BORRAR",width=9)
 #button_borrar.config(font=("Arial",18),justify=CENTER)
@@ -123,7 +123,7 @@ button_borrar.place(x=337, y=7)
 #boton de salir
 #button_salir=Button(Frame_operaciones, text="SALIR",width=9)
 #utton_salir.config(font=("Arial",18),justify=CENTER)
-button_salir1=PhotoImage(file="Img/boton_salir.png")
+button_salir1=PhotoImage(file = "GUI_01/Img/boton_salir.png")
 button_salir=Button(Frame_operaciones, image=button_salir1, width=105, height=105 ,command=salir) 
 button_salir.place(x=558, y=7)
 
